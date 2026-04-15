@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     if (params.Environment == "dev") {
-                        echo "First stage of scripts"
+                        echo "First stage of scripts executed successfullu"
                     }
                 }
 
