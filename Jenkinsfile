@@ -35,6 +35,14 @@ pipeline {
                 """
             }
         }
+                stage("Docker Build") {
+            steps {
+                sh """
+                echo "docker build -t test1:v1 ."
+
+                """
+            }
+        }
 
         stage("Action Stage") {
             steps {
