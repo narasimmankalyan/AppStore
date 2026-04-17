@@ -38,7 +38,7 @@ pipeline {
                 stage("Docker Build") {
             steps {
                 sh """
-                docker build -t test10 .
+                docker build -t test11 .
 
                 """
             }
