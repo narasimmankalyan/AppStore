@@ -22,7 +22,7 @@ pipeline {
                 }
 
                 // Proper input step
-                input message: "Do you want to continue?"
+                // input message: "Do you want to continue?"
             }
         }
 
